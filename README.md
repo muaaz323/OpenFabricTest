@@ -1,6 +1,6 @@
 # 🚀 AI Creativity Pipeline (OpenFabric)
 
-A powerful end-to-end AI pipeline that transforms simple text prompts into vivid images and interactive 3D models.
+A powerful end-to-end AI pipeline that transforms simple text prompts into vivid images.
 
 ## 🌟 Features
 
