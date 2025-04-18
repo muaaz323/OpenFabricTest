@@ -21,6 +21,8 @@ A powerful end-to-end AI pipeline that transforms simple text prompts into vivid
 
 ## 🚀 Getting Started
 
+## 🚀 Getting Started
+
 1. **Clone the repository**
 
 2. **Navigate to the app directory**
@@ -28,26 +30,41 @@ A powerful end-to-end AI pipeline that transforms simple text prompts into vivid
    cd app
    ```
 
-3. **Install dependencies**
+3. **Create a virtual environment with Python 3.10**
+   - For Windows:
+     ```bash
+     python -m venv venv
+     ```
+   - For macOS/Linux:
+     ```bash
+     python3.10 -m venv venv
+     ```
+
+4. **Activate the virtual environment**
+   - For Windows:
+     ```bash
+     venv\Scripts\activate
+     ```
+   - For macOS/Linux:
+     ```bash
+     source venv/bin/activate
+     ```
+
+5. **Install dependencies using the requirements file**
    ```bash
-   poetry install
+   pip install -r requirements.txt
    ```
 
-4. **Run the application**
+6. **Run the application**
 
-   **CLI Version:**
-   ```bash
-   ./start.sh
-   ```
-
-   **Streamlit GUI Version:**
-   ```bash
-   # On Linux/Mac:
-   ./start_streamlit.sh
-   
-   # On Windows:
-   streamlit run streamlit_app.py
-   ```
+   - **Streamlit GUI Version:**
+     ```bash
+     # On Linux/Mac:
+     ./start_streamlit.sh
+     
+     # On Windows:
+     streamlit run streamlit_app.py
+     ```
 
 ## 🧠 How It Works
 
@@ -61,10 +78,6 @@ Local LLM (DeepSeek or Llama)
 Text-to-Image App (Openfabric)
 ↓
 Image Output
-↓
-Image-to-3D App (Openfabric)
-↓
-3D Model Output
 ```
 
 ### Memory System
